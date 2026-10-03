@@ -1,0 +1,22 @@
+{
+  "name": "hospital-emergency-routes-client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "axios": "^1.7.2",
+    "lucide-react": "^0.395.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11",
+    "@vitejs/plugin-react": "^4.3.0"
+  }
+}

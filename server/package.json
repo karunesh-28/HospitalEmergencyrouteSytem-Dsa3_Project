@@ -1,0 +1,17 @@
+{
+  "name": "hospital-emergency-routes-server",
+  "version": "1.0.0",
+  "main": "cluster.js",
+  "scripts": {
+    "start": "node cluster.js",
+    "dev": "node cluster.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "ws": "^8.17.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
